@@ -16,7 +16,17 @@ class _MyAppState extends State<MyApp> {
 
       home: Scaffold(
 
-        body: Text('hello flutter'),
+        body: Column(
+
+          mainAxisAlignment: MainAxisAlignment.center,
+
+          children: <Widget>[
+            Text("this is new"),
+          ],
+        )
+        
+
+
 
       ),
 
